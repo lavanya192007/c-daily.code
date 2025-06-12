@@ -21,11 +21,11 @@ int main()
     {
         printf(" You are pass with class A");
     }
-    else if (a>=60 && a>80)
+    else if (a>=60)
     {
     printf("You are pass with class B");
     }
-    else if (a>=40 && a>60)
+    else if (a>=40)
     {
         printf("You are pass with class C");
     }
