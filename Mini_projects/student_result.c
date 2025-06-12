@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int t,e,m,ss,s;
-    float  to,a;
+    int t,e,m,ss,s,to;
+    float  a;
     printf(" Enter marks for Tamil,English,Maths,Science,Social science : ");
     scanf("%d %d %d %d %d",&t,&e,&m,&s,&ss);
     to= t+e+m+s+ss;
