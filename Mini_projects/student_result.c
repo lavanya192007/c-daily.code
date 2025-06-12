@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int t,e,m,ss,s,a,to;
+    int t,e,m,ss,s,to;
+    float a;
     printf(" Enter marks for Tamil,English,Maths,Science,Social science : ");
     scanf("%d %d %d %d %d",&t,&e,&m,&s,&ss);
     to= t+e+m+s+ss;
     printf(" your total = %d",to);
-    a=to/5;
-    printf(" your average = %d",a);
+    a=to/5.0;
+    printf(" your average = %2f\n",a);
     if(t>=35&&e>=35&&m>=35&&s>=35&&ss>=35)
     {
         printf(" You are pass");
@@ -31,5 +32,6 @@ int main()
     else
     {
         printf("Sorry, you have no class");
+        return 0;
     }
 }
