@@ -12,8 +12,8 @@ int main()
     rr=s/o;
     printf(" Your current run rate = %2f\n",rr);
     p1=s+(ro*rr);
-    p2=s+(ro*(ro+2));
-    p3=s+(ro*(ro+5));
+    p2=s+(ro*(rr+2));
+    p3=s+(ro*(rr+5));
     printf(" Your projected score = %d\n ",p1);
     printf(" Your projected score =%d\n ",p2);
     printf(" Your projected score =%d\n ",p3);
