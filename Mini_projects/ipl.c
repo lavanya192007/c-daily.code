@@ -9,7 +9,7 @@ int main()
     ro=20-o;
     printf(" Your remaining over = %d",ro);
     rr=s/o;
-    printf(" Your current run rate = ");
+    printf(" Your current run rate = ",rr);
     p1=s+(ro*rr);
     p2=s+(ro*(ro+2));
     p3=s+(ro*(ro+5));
