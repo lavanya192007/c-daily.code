@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int s,o,p1,p2,p3,ro,rr;
+    int s,o,p1,p2,p3,ro;
+    float rr;
     printf(" Enter your over now : ");
     scanf("%d", &o);
     printf("Enter your current score : ");
@@ -9,7 +10,7 @@ int main()
     ro=20-o;
     printf(" Your remaining over = %d",ro);
     rr=o/s;
-    printf(" Your current run rate = %d",rr);
+    printf(" Your current run rate = %2f",rr);
     p1=s+(ro*rr);
     p2=s+(ro*(ro+2));
     p3=s+(ro*(ro+5));
