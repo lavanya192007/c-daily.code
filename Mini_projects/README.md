@@ -6,4 +6,7 @@ student_result.c-file name
  # 60%-80% pass with class B
  # 60% to 40% pass with class C
  # Below 40% pass with no class
+ 2.ipl.c 
+ In this program we need to find T20 ipl score ,projected score,remaining over,run rate
+ 
  
