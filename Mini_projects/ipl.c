@@ -6,7 +6,7 @@ int main()
     printf(" Enter your over now : ");
     scanf("%d", &o);
     printf("Enter your current score : ");
-    scanf("%d\n", &s);
+    scanf("%d", &s);
     ro=20-o;
     printf(" Your remaining over = %d\n",ro);
     rr=s/o;
