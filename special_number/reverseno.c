@@ -16,10 +16,11 @@
             printf(" %d", i);
             n=n/10;
         }
-        return 0;
+        printf("Your reverse = %d", n);
+         return 0;
     }
     /*
     sample output :
             Enter the number :  189
-            
+
     */
