@@ -21,5 +21,6 @@
     /*
     sample output :
             Enter the number :  189
+            981
 
     */
