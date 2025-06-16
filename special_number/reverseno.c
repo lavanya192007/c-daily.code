@@ -13,7 +13,7 @@
         while(n>0)
         {
             i=n%10;
-            printf("  Your reverse no = %d", i);
+            printf("%d", i);
             n=n/10;
         }
          return 0;
