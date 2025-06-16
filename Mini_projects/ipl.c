@@ -1,3 +1,15 @@
+/*
+    Program     : IPL score predictor
+    Author      : Lavanya.M
+    Date        : 16-06-2025
+    Description:
+       This program claculate the projected score based on remaining overs and current run rate.
+       */
+         
+    
+
+
+
 #include<stdio.h>
 int main()
 {
