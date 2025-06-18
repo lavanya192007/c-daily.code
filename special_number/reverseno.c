@@ -1,5 +1,5 @@
 /*
-     Program        : theater Seat Booking
+     Program        : reverse no
      Author         : Lavanya.M
      Date           : 16/6/2025
      description    :This program help to reverse the given number.
